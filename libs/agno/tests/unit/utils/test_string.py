@@ -265,8 +265,6 @@ def test_parse_json_with_prefix_suffix_noise():
     assert result is not None
     assert len(result.reasoning_steps) == 1
     assert result.reasoning_steps[0].title == "Only Step"
-<<<<<<< Updated upstream
-=======
 
 
 def test_parse_preserves_field_name_case():
@@ -321,4 +319,3 @@ def test_parse_preserves_field_name_case_with_markdown():
     assert result is not None
     assert result.Supplier_name == 'test "quoted" supplier'
     assert result.newData == 'some "quoted" data'
->>>>>>> Stashed changes
